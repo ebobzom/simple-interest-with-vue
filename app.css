@@ -1,0 +1,33 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(205, 224, 224);
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#main-app{
+    margin: 0 auto;
+    width: 30%;
+}
+
+input{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    height: 42px;
+    padding: 4px;
+    margin: 4px;
+    margin-left: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
