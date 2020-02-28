@@ -15,7 +15,7 @@
         <input id='rate' v-model.number='rate' type="number" placeholder="Enter the Rate">
         <label for="time">Enter the Time</label>
         <input id="time" v-model.number='time' type="number" placeholder="Enter the duration in years">
-        <p>Simple Interset is: {{ (principal * rate * time)}}</p>
+        <p>Simple Interset is: {{ (principal * rate * time) / 100 }}</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./app.js"></script>
